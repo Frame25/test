@@ -1,0 +1,23 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "bracketSameLine": true,
+  "jsxSingleQuote": false,
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "jsxBracketSameLine": false,
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@/src/components/(.*)$",
+    "^@/src/(.*)$",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "vueIndentScriptAndStyle": true
+}

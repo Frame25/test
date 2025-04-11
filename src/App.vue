@@ -1,11 +1,9 @@
 <script setup lang="ts">
+  import ServicesSection from './components/ServicesSection.vue';
 </script>
 
 <template>
-  <header>
-    
-  </header>
-
   <main>
+    <ServicesSection />
   </main>
 </template>

@@ -1,6 +1,7 @@
-import './assets/main.css'
+import { createApp } from 'vue';
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import App from './App.vue';
+import './assets/main.css';
+import twMerge from './directives/tw-merge';
 
-createApp(App).mount('#app')
+createApp(App).use(twMerge).mount('#app');
